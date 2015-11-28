@@ -1,8 +1,9 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="cat.iesnumancia.4tinfo1516" version="1.0.1">
-  <name>Projecte 4t INFO 2015 2016</name>
-  <description>Aplicació phonegap del salumnes de 4t info Curs 2015 2016</description>
-  <author href="http://numancia.cat" email="sergi.curtu@numancia.cat">Sergi Curtu</author>
-  <content src="index.html"/>
+        <name>Projecte 4t INFO 2015 2016</name>
+        <description>Aplicació phonegap del salumnes de 4t info Curs 2015 2016</description>
+        <author href="http://numancia.cat" email="sergi.curtu@numancia.cat">Sergi Curtu</author>
+        <content src="index.html"/>
+  
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
@@ -18,6 +19,8 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
+  
+  
   <gap:plugin name="org.apache.cordova.battery-status"/>
   <gap:plugin name="org.apache.cordova.camera"/>
   <gap:plugin name="org.apache.cordova.media-capture"/>
@@ -39,6 +42,7 @@
   <feature name="NetworkStatus">
     <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager"/>
   </feature>
+  
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
@@ -53,6 +57,7 @@
   <icon src="www/res/icon/webos/icon-64.png" gap:platform="webos"/>
   <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
   <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
+  
   <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
@@ -64,8 +69,10 @@
   <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
+  
   <access origin="*"/>
   <access origin="http://google.com"/>
   <access origin="http://numancia.cat"/>
   <access origin="http://numancia.cat/intranet"/>
+  
 </widget>
