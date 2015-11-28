@@ -2,62 +2,43 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+				
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		
         <title>Projecte_1</title>
 	
     </head>
+	
     <body>
         <div class="app">
-            <h1 style="color:red">Projecte INFO 4t 2015 2016</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">
-					Connectant ...
-				</p>
-                <p class="event received">
-					El dispositiu està preparat
-				</p>
-				
-				<p id="id_connexio" name="id_connexio">
-					Tipus de connexió ? 
-				</p>
-				
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        
-		<script type="text/javascript">
             
-			app.initialize();
-		    checkConnection();		
-			
-			<!--$("#content").load("ARCHIVO PHP ALOJADO EN SERVIDOR EXTERNO");-->
+			<h1 style="color:red">Projecte INFO 4t 2015 2016</h1>
+            
 				
-			function checkConnection() { 
-				
-				var networkState = navigator.connection.type; 
+            
+        </div>
+        
+		<!-- ############################################################################################################################ -->
 
-				var states = {}; 
-				states[Connection.UNKNOWN]  = 'Unknown connection'; 
-				states[Connection.ETHERNET] = 'Ethernet connection'; 
-				states[Connection.WIFI]     = 'WiFi connection'; 
-				states[Connection.CELL_2G]  = 'Cell 2G connection'; 
-				states[Connection.CELL_3G]  = 'Cell 3G connection'; 
-				states[Connection.CELL_4G]  = 'Cell 4G connection'; 
-				states[Connection.NONE]     = 'No network connection'; 
-
-				document.getElementById('id_connexio').innerHTML = 'Connection type: ' + states[networkState];
-				document.getElementById('id_connexio').text = 'Connection type: ' + states[networkState];
-				
-			} ;
-			
-			
-			
-        </script>
+		
+		<!-- javascript ------------------------------------------------------------------------ -->
+		
+		<!--	CORDOVA	-->
+        <script type="text/javascript" src="cordova.js"></script>
+		
+		<!--	JQUERY	-->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
+		
+		<!--	MATERIALIZE	-->
+		<script type="text/javascript" src="js/materialize.js"></script>
+        
+		<!-- index.js-->
+		<script type="text/javascript" src="js/index.js"></script>
+		
     </body>
 </html>
 
