@@ -88,8 +88,5 @@
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
   
   <access origin="*"/>
-  <access origin="http://google.com"/>
-  <access origin="http://numancia.cat"/>
-  <access origin="http://numancia.cat/intranet"/>
   
 </widget>
