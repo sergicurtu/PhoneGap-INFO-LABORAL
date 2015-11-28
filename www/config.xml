@@ -3,13 +3,13 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "cat.numancia.projecte_info_4t"
-        versionCode = "3" 
-        version     = "1.0.3" >
+        versionCode = "4" 
+        version     = "1.0.4" >
 	
 	<!-- versionCode is optional and Android only -->
 
 	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-		<string>3</string>	<!-- Same value than versionCode -->
+		<string>4</string>	<!-- Same value than versionCode -->
 	</gap:config-file>
 	
 	<preference name="phonegap-version" value="cli-5.2.0" />
@@ -75,7 +75,7 @@
 	<!-- ********************************************************************************** -->
 	
 	<icon src="icon.png" /> <!-- Icono por defecto, debe estar en la raiz -->
-	<!-- <gap:splash src="splash.png" /> Splash por defecto, debe estar en la raíz -->
+	<gap:splash src="splash.png" /> <!--Splash por defecto, debe estar en la raíz -->
 	
 	<!-- iOS 7 y 6 ====================================================================== -->
 	<!-- Settings Icon -->
