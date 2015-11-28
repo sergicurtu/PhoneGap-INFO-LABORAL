@@ -8,10 +8,6 @@
 	
 	<!-- versionCode is optional and Android only -->
 
-	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-		<string>4</string>	<!-- Same value than versionCode -->
-	</gap:config-file>
-	
 	<preference name="phonegap-version" value="cli-5.2.0" />
 
     <name>Projecte 4t INFO 2015 2016</name>
