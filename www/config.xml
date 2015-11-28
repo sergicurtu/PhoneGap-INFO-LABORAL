@@ -1,9 +1,26 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="cat.iesnumancia.4tinfo1516" version="1.0.1">
-        <name>Projecte 4t INFO 2015 2016</name>
-        <description>Aplicació phonegap del salumnes de 4t info Curs 2015 2016</description>
-        <author href="http://numancia.cat" email="sergi.curtu@numancia.cat">Sergi Curtu</author>
-        <content src="index.html"/>
-  
+<?xml version="1.0" encoding="UTF-8" ?>
+    
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "cat.iesnumancia.4tinfo1516"
+        <!-- versionCode is optional and Android only -->
+        versionCode = "2" 
+        version     = "1.0.2" >
+
+	<preference name="phonegap-version" value="cli-5.2.0" />
+
+    <name>Projecte 4t INFO 2015 2016</name>
+
+   <description>
+       Aplicació phonegap del salumnes de 4t info Curs 2015 2016
+    </description>
+
+    <author href="https://numancia.cat/intranet" email="sergi.curtu@numancia.cat">
+       Sergi Curtu
+    </author>
+
+  <content src="index.html"/>
+ 
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
