@@ -1,8 +1,15 @@
 <jsv-header>
     <button-header-left onclick="$JSView.back()">< Back</button-header-left>
-    View C
+    Títol de la pàgina C / 3
     <button-header-right></button-header-right>
 </jsv-header>
+
+
 <jsv-content>
-    <h1 class="paddingFull10">Content View C</h1>
+
+    <h1 class="paddingFull10">Pàgina C</h1>
+	
+	<button class="bgYellow" onClick="$JSView.goToView('viewA')">Mostrar Pàgina A</button>
+    <button class="bgYellow" onClick="$JSView.goToView('viewB')">Mostrar Pàgina B</button>
+	
 </jsv-content>

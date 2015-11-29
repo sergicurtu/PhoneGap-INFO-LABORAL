@@ -1,5 +1,10 @@
 window.addEventListener('load', function() {
-    /*Declare views*/
+    /*	
+			Declare views
+	
+			Aquí podem afegir diferents pàgines html , indicar on estan i el nom del controller ( mirar controller.js )
+	
+	*/
     $JSView.declareView({ 
         viewA: {
             url: '/viewA',
