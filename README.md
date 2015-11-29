@@ -14,6 +14,7 @@ aplicació mòbil senzilla i dues opcions per crear transicions
 mitjançant :
 
 mobileUI
+
 JSview
 
 Cal comentar els enllaços CSS i JS dels complements NO utilitzats
