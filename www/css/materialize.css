@@ -1,3 +1,15 @@
+/*
+		sergi 29.11.2015
+*/
+
+.btn-centrat {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    width: 130px;
+    margin: 10px auto 0px auto;
+}
+
 /*!
  * Materialize v0.96.0 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
