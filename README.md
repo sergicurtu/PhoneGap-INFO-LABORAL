@@ -1,7 +1,7 @@
-#APP Bàsica amb mobileUI
+#APP JSview
 
 07/12/2015
-El projecta ara es diu : PhoneGap amb mobileUI
+El projecta ara es diu : PhoneGap amb JSview
 
 Informàtica 4t ESO 2015 2016
 INS Numància 
@@ -11,7 +11,7 @@ L'arxiu index inclou una estructura bàsica per crear una
 aplicació mòbil senzilla i dues opcions per crear transicions
 mitjançant :
 
----> mobileUI
+mobileUI
 
 JSview [ aquesta és la activa, amb 3 pàgines (ABC) i un modal ]
 
