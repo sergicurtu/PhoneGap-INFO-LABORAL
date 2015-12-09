@@ -1,9 +1,9 @@
-#APP JSview
+#El Sistema Solar
 
 07/12/2015
-El projecta ara es diu : PhoneGap amb JSview
+El projecta ara es diu : El Sistema Solar
 
-Informàtica 4t ESO 2015 2016
+Informàtica 4t ESO 2015 2016 [LABORAL]
 INS Numància 
 Santa Coloma de Gramenet
 
