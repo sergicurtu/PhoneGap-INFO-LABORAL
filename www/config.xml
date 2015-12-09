@@ -3,8 +3,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "cat.numancia.projecte_info_4t"
-        versionCode = "20" 
-        version     = "1.0.20" >
+        versionCode = "21" 
+        version     = "1.0.21" >
 	
 	<!-- versionCode is optional and Android only -->
 
