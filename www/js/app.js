@@ -20,6 +20,26 @@ window.addEventListener('load', function() {
             url: '/viewC',
             template: 'views/viewC.html',
             controller: 'viewC'
+        },
+        viewD: {
+            url: '/viewD',
+            template: 'views/viewD.html',
+            controller: 'viewD'
+        },
+        viewE: {
+            url: '/viewE',
+            template: 'views/viewE.html',
+            controller: 'viewE'
+        },
+        viewF: {
+            url: '/viewF',
+            template: 'views/viewF.html',
+            controller: 'viewF'
+        },
+        viewG: {
+            url: '/viewG',
+            template: 'views/viewG.html',
+            controller: 'viewG'
         }
     });
      
