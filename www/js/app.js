@@ -20,6 +20,11 @@ window.addEventListener('load', function() {
             url: '/mercuri',
             template: 'views/mercuri.html',
             controller: 'mercuri'
+        },
+        venus: {
+            url: '/venus',
+            template: 'views/venus.html',
+            controller: 'venus'
         }
     });
      
