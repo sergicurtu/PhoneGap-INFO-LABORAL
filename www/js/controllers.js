@@ -3,16 +3,49 @@
 */
 
 $JSView.controller = {
-    viewA: function(e){
+	
+	/* view  menus */
+	viewMenuA: function(e){
+		$JSView.dataView({'title': 'Welcome'},e)
+	},
+	viewMenuB: function(e){
+        	$JSView.dataView({'title': 'Templates'},e)
+    	},
+    	viewMenuC: function(e){
+    		$JSView.dataView({'title': 'Examples initLoadMore'},e)
+    	},
+    	viewMenuD: function(e){
+    		$JSView.dataView({'title': 'Examples initReload'},e)
+    	},	
+	
+	/* view pàgines */
+    	inici: function(e){
 		$JSView.dataView({},e)
 	},
-    viewB: function(e){
+    	dimenge: function(e){
 		$JSView.dataView({},e)	
 	},
-    viewC: function(e){
+    	dilluns: function(e){
 		$JSView.dataView({},e)
 	},
-    modalA: function(e){
+    	dimarts: function(e){
+		$JSView.dataView({},e)
+	},
+    	dimecres: function(e){
+		$JSView.dataView({},e)
+	},
+    	dijous: function(e){
+		$JSView.dataView({},e)
+	},
+    	divendres: function(e){
+		$JSView.dataView({},e)
+	},
+	
+	
+    	modalA: function(e){
 		$JSView.dataView({},e)	
 	}
+	
+	
 }
+
