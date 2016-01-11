@@ -6,40 +6,40 @@ window.addEventListener('load', function() {
 	
 	*/
     $JSView.declareView({ 
-        viewA: {
-            url: '/viewA',
-            template: 'views/viewA.html',
-            controller: 'viewA'
+        inici: {
+            url: '/inici',
+            template: 'views/inici.html',
+            controller: 'inici'
         },
-        viewB: {
-            url: '/viewB',
-            template: 'views/viewB.html',
-            controller: 'viewB'
+        diumenge: {
+            url: '/diumenge',
+            template: 'views/diumenge.html',
+            controller: 'diumenge'
         },
-        viewC: {
-            url: '/viewC',
-            template: 'views/viewC.html',
-            controller: 'viewC'
+        dilluns: {
+            url: '/dilluns',
+            template: 'views/dilluns.html',
+            controller: 'dilluns'
         },
-        viewD: {
-            url: '/viewD',
-            template: 'views/viewD.html',
-            controller: 'viewD'
+        dimarts: {
+            url: '/dimarts',
+            template: 'views/dimarts.html',
+            controller: 'dimarts'
         },
-        viewE: {
-            url: '/viewE',
-            template: 'views/viewE.html',
-            controller: 'viewE'
+        dimecres: {
+            url: '/dimecres',
+            template: 'views/dimecres.html',
+            controller: 'dimecres'
         },
-        viewF: {
-            url: '/viewF',
-            template: 'views/viewF.html',
-            controller: 'viewF'
+        dijous: {
+            url: '/dijous',
+            template: 'views/dijous.html',
+            controller: 'dijous'
         },
-        viewG: {
-            url: '/viewG',
-            template: 'views/viewG.html',
-            controller: 'viewG'
+        divendres: {
+            url: '/divendres',
+            template: 'views/divendres.html',
+            controller: 'divendres'
         }
     });
      
