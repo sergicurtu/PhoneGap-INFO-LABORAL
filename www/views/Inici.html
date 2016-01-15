@@ -1,36 +1,54 @@
-<jsv-header>
-	<button-header-left></button-header-left>
-   Menú
-    <button-header-right></button-header-right>
-</jsv-header>
-
+<nav id="nav_lateral" style="z-index: 1000; background:#40c4ff; ">
+   
+		   <ul id="slide-out" class="side-nav" style="z-index: 1003;">
+		    
+		    
+		    <li dia="Dilluns"   class="dia_menu_clicat Dilluns"   style="z-index: 1005; font-weight: bold;">Dilluns</li>
+		    <li dia="Dimarts"   class="dia_menu_clicat Dimarts"   style="z-index: 1005; font-weight: bold;">Dimarts</li>
+		    <li dia="Dimecres"  class="dia_menu_clicat Dimecres"  style="z-index: 1005; font-weight: bold;">Dimecres</li>
+		    <li dia="Dijous"    class="dia_menu_clicat Dijous"    style="z-index: 1005; font-weight: bold; background:#ffe082;">Dijous</li>
+		    <li dia="Divendres" class="dia_menu_clicat Divendres" style="z-index: 1005; font-weight: bold;">Divendres</li>
+		    
+		    <!--
+		    <div dia="Diumenge" class="dia_menu_clicat Diumenge"  style="z-index: 999999; font-weight: bold; color: #FFFFFF; background:#00e676; "><span>Diumenge</span></div>
+		    -->
+		    
+		  </ul>
+		  
+		  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-action-view-list"></i></a>
+		  
+		</nav>
 
 <jsv-content>
 
 	<div class="container">
 	
 		<!-- <h1 class="paddingFull10">Content View A</h1> -->
-		<h3 style="color:red">Rómulo y Remo 2016</h3>
-		<h4>2015 2016</h4>
+		<h3 style="color:blue">Roma 2016</h3>
+		<h5>INS Numància 4t ESO </h5>
 
-		<p>La mejor app que te puedas encontrar ;)</p>
+		<p>En aquesta APP, creada pels alumnes de 4t d'ESO INFO, trobareu ...</p>
 
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('diumenge')">Día 1</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dilluns')">Día 2</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dimarts')">Día 3</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dimecres')">Día 4</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dijous')">Día 5</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('divendres')">Retorno</button>
+			
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dilluns')">Dilluns</button>
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dimarts')">Dimarts</button>
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dimecres')">Dimecres</button>
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('dijous')">Dijous</button>
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('divendres')">Divendres</button>
+			
+			
 			<!-- Obrir un modal (A) ... és a dir, una finestra emergent -->
 			<!--
 			<button class="bgYellow btn-centrat" onClick="$JSView.openModal('modalA')">Modal A</button>
 			-->
+			
 			<!-- Això és un Button de Materializecss -->
 			<!--
 			<div style="display: block;margin-left: auto;margin-right: auto;" class="btn-centrat">
 				<a class="waves-effect waves-light btn-large"><i class="material-icons left">alarm</i>Materializecss</a>
 			<div>
 			-->
+			
 			
 	</div>
 			
