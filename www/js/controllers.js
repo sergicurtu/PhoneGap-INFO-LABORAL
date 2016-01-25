@@ -33,6 +33,9 @@ $JSView.controller = {
     saturn: function(e){
 		$JSView.dataView({},e)
 	},
+    taula: function(e){
+		$JSView.dataView({},e)
+	},
     modalA: function(e){
 		$JSView.dataView({},e)	
 	}
