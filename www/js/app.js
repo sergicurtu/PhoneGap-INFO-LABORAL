@@ -55,6 +55,11 @@ window.addEventListener('load', function() {
             url: '/saturn',
             template: 'views/saturn.html',
             controller: 'saturn'
+        },
+        taula: {
+            url: '/taula',
+            template: 'views/taula.html',
+            controller: 'taula'
         }
     });
      
