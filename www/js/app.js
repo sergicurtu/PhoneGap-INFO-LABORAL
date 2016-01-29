@@ -45,15 +45,15 @@ window.addEventListener('load', function() {
      
     /*Declare modal*/
     $JSView.declareModal({
-        modalA: {
-            url: '/modalA',
-            template: 'views/modalA.html',
-            controller: 'modalA'
+        modal_info_aeroport: {
+            url: '/modal_info_aeroport',
+            template: 'views/modal_info_aeroport.html',
+            controller: 'modal_info_aeroport'
         }
-    });
      
     /*Asign view start*/
     $JSView
-        .initView('viewA');
+        .initView('inici');
  
 }, false);
+
