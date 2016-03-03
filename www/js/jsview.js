@@ -1,10 +1,7 @@
 /*
 Hi Developer, this is JavaScriptView
-
 JavaScriptView is an open source project, you can use, modify and adapt it to your needs. Your help is important to improve it.
-
 We want you in the team and collaborate with this little framework. You can email us at contact@javascriptview.com
-
 Thanks!
 */
 
@@ -192,6 +189,19 @@ $JSView = {
             //Assign actual view to global var
             JSVActualView = window.history.state
         },0);
+    },
+    //OPEN CLOSE IMAGE POPUP
+    openImage: function(image,e){
+        var objElement = $v.select('jsv-image-popup#' + e);
+		objElement.style.backgroundImage = image.style.backgroundImage;
+        objElement.classList.add('show');
+    },
+    closeImage: function(e){
+        var objElement = $v.select('jsv-image-popup#' + e);
+        objElement.classList.remove('show');
+        setTimeout(function(){
+            objElement.style.backgroundImage = '';
+        },250);
     },
     back: function(e){
         //Return to previous url       
