@@ -3,7 +3,6 @@ JavaScript View, opensource library :)
 This is Javascript and Love
 www.javascriptview.com
 contact@javascriptview.com
-
 Here you can write your custom CSS
 */
 
@@ -86,7 +85,7 @@ jsv-content{
 
 .JSVcontainerShow{
     opacity: 1;
-    z-index: 99999}
+    z-index: 999}
 
 jsv-header{
     position: absolute;
@@ -535,6 +534,51 @@ jsv-room-input button{
     border-radius: 2px;
     background: #f7f7f7;
     text-align: center}
+    
+    
+/*Image Popup  AFEGIT 02.03.2016 */
+.photo{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover}
+
+jsv-image-popup{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover}
+
+jsv-image-popup{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    background-color: #000;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s}
+
+jsv-image-popup.show{
+    z-index: 99;
+    opacity: 1}
+
+jsv-image-popup jsv-header{
+    background-color: #000;
+    border: none !important}
+
+jsv-image-popup jsv-header button-header-right{
+    color: #fff !important}
+
+jsv-image-popup .tools{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    height: 50px}    
+    
+    
 
 /*Spinner in scroll and modal*/
 #JSVcontainerLoading{
@@ -556,11 +600,11 @@ jsv-room-input button{
 
 .JSVhideLoading{
     opacity: 0;
-    z-index: -99999}
+    z-index: -999}
 
 .JSVshowLoading{
     opacity: 1;
-    z-index: 99999}
+    z-index: 999}
 
 .JSVspinnerBlack {
     margin: auto;
